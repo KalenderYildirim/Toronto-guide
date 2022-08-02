@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+#header-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0px 0px 3px #a56330;
+}
+
+#header {
+    background-image: url(https://media.giphy.com/media/Ru86ce44TU4A8/giphy.gif);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.activities-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+
+.ripley, .island, .tower {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+
+.ripley-section {
+    margin-top: -10px;
+}
+
+
+
+img {
+    width: 150px;
+}
+
+.wrap{
+    background: #cb997e;
+    background-image: linear-gradient(#4e2f1f, #ddbea9);
+}
+
+.guide {
+    background-color: #E4C1F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 30px;
+    border-bottom: 8px solid #FF99C8;
+    border-right: 8px solid #FF99C8;
+    font-size: 18px;
+}
